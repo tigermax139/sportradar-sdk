@@ -1,5 +1,10 @@
 {
   "name": "sportradar-sdk",
+  "keywords": ["sportradar"],
+  "author": {
+    "name": "Bohdan Yurchuk",
+    "email": "tigermax139@gmail.com"
+  },
   "version": "1.0.0",
   "scripts": {
     "pretty": "prettier ./src --write"
