@@ -1,7 +1,7 @@
 {
   "name": "sportradar-sdk",
   "keywords": ["sportradar"],
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": {
     "name": "Bohdan Yurchuk",
     "email": "tigermax139@gmail.com"
