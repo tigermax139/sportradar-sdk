@@ -9,6 +9,7 @@ Simple wrapper over Sportradar API. Request/Response typed via JSDoc.
 - Soccer v4
 - Volleyball v2
 - Basketball v2
+- Ice hockey global v2
 
 ## Usage
 Detailed methods in [src folder](https://github.com/tigermax139/sportradar-sdk/blob/main/src/api/soccer-v4/sportradar.api.js)

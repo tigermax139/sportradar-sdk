@@ -591,7 +591,7 @@ class SportradarBasketballV2Api extends SportradarApiBase {
 	}
 
 	/**
-     @desc undefined
+     @desc Get sport event mapping
      @param {SportradarLocale=} locale
      @param {number=} offset
      @param {number=} start

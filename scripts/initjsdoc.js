@@ -1,4 +1,4 @@
-const openApi = require('../src/api/basketball-v2/openapi.json');
+const openApi = require('../src/api/ice-hockey-global-v2/openapi.json');
 const _ = require('lodash');
 
 const lastFromRef = ($ref) => _.last($ref.split('/'));
