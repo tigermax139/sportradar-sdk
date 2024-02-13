@@ -20,7 +20,15 @@ const api = new SportradarSoccerV4Api({
 	locale: 'en',
 });
 
-api.getCompetitions({}).then(conosle.log);
+const competition = await api.getCompetitionInfo({
+    urn_competition: 'sr:competition:7', // UEFA Champions League
+});
+const seasons = await api.getCompetitionSeasons({
+	urn_competition: 'sr:season:106479', // 23/24 years
+});
+const eventInfo = await api.getSportEventSummary({
+	urn_sport_event: '',
+});
 ```
 
 ## TODOs
